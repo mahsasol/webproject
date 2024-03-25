@@ -180,3 +180,7 @@
 .img-box ul, .img-box li{
     transition: 0.5s;
 }
+/* promoooo    */
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/pexels-tranmautritam-326515.jpg);
+}
