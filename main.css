@@ -1,81 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* --- navgation style ---*/
-#nav-bar{
-    position:  sticky;
+#nav-bar {
+    position: sticky;
     top: 0;
     z-index: 10;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 100px;
     padding-left: 30px;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     padding: 0 10px;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
     float: right;
     text-align: left;
 }
+
 #nav-bar ul li a:hover {
-    color: #007bff!important;
+    color: #007bff !important;
 }
-.navbar{
+
+.navbar {
     background: #ffffff;
     height: 90px;
 }
-.navbar-toggler{
-    border: none!important;
+
+.navbar-toggler {
+    border: none !important;
 }
-.nav-link{
-    color: #555!important;
+
+.nav-link {
+    color: #555 !important;
     font-weight: 600;
     font-size: 16px;
 }
+
 /* ---ABOUT--- */
-#about{
+#about {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
 }
-#about .btn{
+
+#about .btn {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.about-content{
+
+.about-content {
     padding-top: 20px;
 }
-.skills-bar p{
+
+.skills-bar p {
     margin-bottom: 6px;
     font-weight: 600;
 }
-.progress-bar{
+
+.progress-bar {
     border-radius: 16px;
 }
-.progress{
-    border-radius: 16px!important;
+
+.progress {
+    border-radius: 16px !important;
     margin-bottom: 20px;
 }
+
 /* ------- services-------- */
-#services{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(image/pexels-tranmautritam-326515.jpg);
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/pexels-tranmautritam-326515.jpg);
     background-size: cover;
     background-position: center;
-    color: #efefef!important;
+    color: #efefef !important;
     background-attachment: fixed;
     padding-top: 50px;
     padding-bottom: 50px;
 
 }
-#services h1{
+
+#services h1 {
     text-align: center;
-    color: #efefef!important;
+    color: #efefef !important;
     padding-bottom: 10px;
 }
-#services h1::after{
+
+#services h1::after {
     content: '';
     background: #efefef;
     display: block;
@@ -83,16 +99,19 @@
     width: 160px;
     margin: 20px auto 5px;
 }
-.services{
+
+.services {
     margin-top: 40px;
 }
-.services .col-md-3:hover{
+
+.services .col-md-3:hover {
     background-color: #003063;
     cursor: pointer;
     transition: 0.6s;
 }
-.icon{
-    font-size:30px;
+
+.icon {
+    font-size: 30px;
     margin: 20px auto;
     padding: 10px;
     height: 70px;
@@ -100,60 +119,71 @@
     border: 1px solid #fff;
     border-radius: 50%;
 }
-#services p{
+
+#services p {
     font-size: 14px;
     margin-top: 20px;
     color: #ccc;
 }
+
 /* --------our team------- */
-#team{
+#team {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
 }
-#team h1{
+
+#team h1 {
     text-align: center;
-    color: #555!important;
+    color: #555 !important;
     padding-bottom: 10px;
 }
-#team h1::after{
+
+#team h1::after {
     content: '';
-    background:#007bff;
+    background: #007bff;
     display: block;
     height: 3px;
     width: 170px;
-    margin: 20px auto ;
+    margin: 20px auto;
 
 }
+
 /* teamm  profil  */
-.profile-pic{
+.profile-pic {
     margin-top: 25px;
 }
-.profile-pic .img-box{
+
+.profile-pic .img-box {
     opacity: 1;
     display: block;
     position: relative;
 }
-.profile-pic .img-box img{
+
+.profile-pic .img-box img {
     filter: grayscale(1);
     width: 300px;
 }
-.profile-pic .img-box img:hover{
+
+.profile-pic .img-box img:hover {
     filter: grayscale(0);
     cursor: pointer;
 }
-.profile-pic h2{
+
+.profile-pic h2 {
     font-size: 22px;
     font-weight: bold;
     margin: 15px;
-    color: #007bff!important;
+    color: #007bff !important;
 }
-.profile-pic h3{
+
+.profile-pic h3 {
     font-size: 15px;
     font-weight: bold;
     margin-top: 15px;
 }
-#team .fa{
+
+#team .fa {
     height: 25px;
     width: 25px;
     color: #007bff;
@@ -161,7 +191,8 @@
     padding: 2px;
     border-radius: 50%;
 }
-.img-box ul{
+
+.img-box ul {
     padding: 15px;
     position: absolute;
     z-index: 2;
@@ -170,19 +201,24 @@
     transform: translateX(-50%);
     opacity: 0;
 }
-.img-box ul li{
+
+.img-box ul li {
     padding: 5 px;
     display: inline-block;
 }
-.img-box:hover ul{
+
+.img-box:hover ul {
     opacity: 1;
 }
-.img-box ul, .img-box li{
+
+.img-box ul,
+.img-box li {
     transition: 0.5s;
 }
+
 /* promoooo    */
-#promo{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/pexels-tranmautritam-326515.jpg);
+#promo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/pexels-tranmautritam-326515.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -191,4 +227,108 @@
     padding: 100px;
     font-family: sans-serif;
     font-size: 38px;
+}
+
+/* ---price---  */
+#price {
+    padding: 40px 0;
+    background: #efefef;
+}
+
+.single-price {
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover {
+    box-shadow: 0 2px 20px #333;
+}
+
+.price-head {
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.price-head h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.price-head p {
+    font-size: 22px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#price span {
+    font-size: 14px;
+}
+
+.price-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.price-content ul li {
+    border-bottom: 1px solid #efefef;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+ul li:last-child {
+    border: none;
+}
+
+.fa-check {
+    color: green;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.fa-times {
+
+    color: red;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.buy-btn{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 11px 15px;
+    transition: 0.5s;
+    color: wheat;
+}
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+a{
+    text-decoration: none!important;
 }
