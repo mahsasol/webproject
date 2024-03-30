@@ -146,9 +146,19 @@
     height: 3px;
     width: 170px;
     margin: 20px auto;
+}
+.container h1{
+text-align: center;
+}
+.container h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto;
 
 }
-
 /* teamm  profil  */
 .profile-pic {
     margin-top: 25px;
@@ -395,4 +405,26 @@ blockquote::after{
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
     cursor: pointer;
     transition: 0.5s;
+}
+/* -get in touch  */
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.contact-form{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
 }
