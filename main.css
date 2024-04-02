@@ -428,3 +428,8 @@ blockquote::after{
     padding: 10px;
     margin: 15px;
 }
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
