@@ -44,6 +44,9 @@
 }
 
 /* ---ABOUT--- */
+#beforeabout{
+    height: 50px;
+}
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -148,7 +151,7 @@
     margin: 20px auto;
 }
 .container h1{
-text-align: center;
+    text-align: center;
 }
 .container h1::after{
     content: '';
@@ -407,6 +410,9 @@ blockquote::after{
     transition: 0.5s;
 }
 /* -get in touch  */
+#beforecontact{
+    height: 20px;
+}
 #contact{
     background: #efefef;
     padding-top: 40px;
